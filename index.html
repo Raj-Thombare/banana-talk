@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Speak</title>
     <style>
+        body {
+            margin: 1rem;
+            padding: 1rem;
+            box-sizing: border-box;
+        }
+
         textarea {
             display: block;
             height: 10vh;
@@ -16,15 +22,27 @@
 
         button {
             margin: 1rem;
+            padding: .5rem;
+            background-color: lightskyblue;
+            font-weight: bold;
+        }
+
+        #output {
+            border: 1px solid black;
+            display: block;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem;
             padding: 1rem;
-            background-color: green;
         }
     </style>
 </head>
 <body>
     <h1>Talk Banana</h1>
-    <textarea id="txt-input" placeholder="Enter text to translate..."></textarea>
+    <textarea id="txt-input" placeholder="Enter text to translate......"></textarea>
     <button id="btn-translate">Translate</button>
+    <div style="font-size: 2rem; margin: 1rem; font-weight: bold;">Output 👇</div>
+    <div id="output"></div>
 
     <script src="app.js"></script>
 </body>
