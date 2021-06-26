@@ -1,15 +1,16 @@
 body {
     box-sizing: border-box;
-    font-family: 'Kalam', cursive;
+    font-family: cursive;
     margin: 0rem;
-    padding: 0rem;
+    color: var(--black);
 }
 
 main {
-    max-width: var(--width-break);
-    padding: 1rem;
     margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
 }
+
 
 :root {
     --primary:#93C5FD;
@@ -25,12 +26,14 @@ nav {
 }
 
 textarea {
+    box-sizing: border-box;
     display: block;
-    height: 10vh;
-    width: var(--width-break);
-    margin: 1rem;
-    padding: 1rem;
+    width: 100%;
+    min-height: 20vh;
+    margin: 2rem 0rem;
+    font-size: large;
     font-family: inherit;
+    padding: 1rem;
 }
 
 button {
@@ -45,18 +48,17 @@ button {
     border: 1px solid black;
     display: block;
     height: 10vh;
-    width: var(--width-break);
-    margin: 1rem;
+    margin-top: 2rem;
     padding: 1rem;
 }
 
 footer {
     position: fixed;
     bottom: 0;
-    background-color: var(--primary);
     width: 100%;
-    text-align: center;
-    height: 20vh;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;;
 }
 
 footer div {
