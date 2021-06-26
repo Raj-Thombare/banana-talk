@@ -1,0 +1,70 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Kalam', cursive;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+main {
+    max-width: var(--width-break);
+    padding: 1rem;
+    margin: auto;
+}
+
+:root {
+    --primary:#93C5FD;
+    --black:black;
+    --width-break:600px;
+}
+
+nav {
+    background-color: var(--primary);
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+textarea {
+    display: block;
+    height: 10vh;
+    width: var(--width-break);
+    margin: 1rem;
+    padding: 1rem;
+    font-family: inherit;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    background-color: var(--primary);
+    font-family: inherit;
+}
+
+#output {
+    border: 1px solid black;
+    display: block;
+    height: 10vh;
+    width: var(--width-break);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: var(--primary);
+    width: 100%;
+    text-align: center;
+    height: 20vh;
+}
+
+footer div {
+    font-size: 2rem;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
+
