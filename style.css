@@ -51,6 +51,7 @@ button {
     margin-top: 2rem;
     padding: 1rem;
     overflow: auto;
+    resize: none;
 }
 
 footer {
