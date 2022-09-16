@@ -50,6 +50,7 @@ button {
     height: 10vh;
     margin-top: 2rem;
     padding: 1rem;
+    overflow: auto;
 }
 
 footer {
