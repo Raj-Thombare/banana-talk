@@ -45,21 +45,22 @@ button {
 }
 
 #output {
-    border: 1px solid black;
-    display: block;
-    height: 10vh;
-    margin-top: 2rem;
-    padding: 1rem;
-    overflow:auto;
+  border: 1px solid black;
+  display: block;
+  height: 10vh;
+  margin-top: 2rem;
+  padding: 1rem;
+  word-break: break-all;
+  overflow: auto;
 }
 
 footer {
-    position: static;
-    bottom: 0;
-    width: 100%;
-    padding: 1rem;
-    background-color: var(--primary);
-    text-align: center;
+    pposition: absolute;
+bottom: 0px;
+width: 100%;
+padding: 1rem 0rem;
+background-color: var(--primary);
+text-align: center;
 }
 
 footer div {
