@@ -54,12 +54,12 @@ button {
 }
 
 footer {
-    position: relative;
+    position: static;
     bottom: 0;
     width: 100%;
     padding: 1rem;
     background-color: var(--primary);
-    text-align: center;;
+    text-align: center;
 }
 
 footer div {
