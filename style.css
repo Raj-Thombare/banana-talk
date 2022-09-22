@@ -1,8 +1,14 @@
+html {
+  height:100%;
+}
+
 body {
     box-sizing: border-box;
     font-family: cursive;
     margin: 0rem;
     color: var(--black);
+    display: flex;
+    flex-direction: column;
 }
 
 main {
@@ -55,12 +61,11 @@ button {
 }
 
 footer {
-    position: absolute;
-bottom: 0px;
-width: 100%;
-padding: 1rem 0rem;
-background-color: var(--primary);
-text-align: center;
+  margin-top: auto;
+  width: 100%;
+  padding: 1rem 0rem;
+  background-color: var(--primary);
+  text-align: center;
 }
 
 footer div {
