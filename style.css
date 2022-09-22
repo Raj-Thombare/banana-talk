@@ -32,7 +32,6 @@ nav {
 }
 
 textarea {
-    box-sizing: border-box;
 display: block;
 width: 40%;
 min-height: 20vh;
@@ -44,7 +43,7 @@ margin: auto;
 
 button {
     display: block;
-    margin: auto;
+    margin: 2rem auto;
     padding: 1rem;
     background-color: var(--primary);
     font-family: inherit;
