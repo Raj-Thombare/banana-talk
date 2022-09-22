@@ -14,8 +14,7 @@ body {
 
 main {
     margin: auto;
-    padding: 1rem;
-    max-width: var(--width-break);
+    width: 100%;
 }
 
 
@@ -34,13 +33,13 @@ nav {
 
 textarea {
     box-sizing: border-box;
-    display: block;
-    width: 100%;
-    min-height: 20vh;
-    margin: 2rem 0rem;
-    font-size: large;
-    font-family: inherit;
-    padding: 1rem;
+display: block;
+width: 40%;
+min-height: 20vh;
+font-size: large;
+font-family: inherit;
+padding: 1rem;
+margin: auto;
 }
 
 button {
@@ -54,11 +53,12 @@ button {
 #output {
   border: 1px solid black;
   display: block;
-  height: 10vh;
-  margin-top: 2rem;
+  height: 15vh;
   padding: 1rem;
   word-break: break-all;
   overflow: auto;
+  width: 40%;
+  margin: auto;
 }
 
 footer {
